@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1616623093 source:c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\teste\sculptor.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<vector>
+	<queue>
+	"sculptor.h"
+
+1616622584 c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\teste\sculptor.h
+
+1616580634 c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\teste\voxel.h
+
+1616621917 source:c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\teste\main.cpp
+	<iostream>
+	<fstream>
+	"sculptor.h"
+	"voxel.h"
+
