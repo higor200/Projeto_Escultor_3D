@@ -10,7 +10,7 @@ int main()
     sculptor pato(90,90,90);
 
     pato.setColor(0.929, 0.823, 0.027,1);
-    //cabeÁa
+    //cabe√ßa
     pato.putBox(60,80,60,80,60,70);
     //corpo
     pato.putBox(65,75,55,60,60,70);
@@ -20,7 +20,7 @@ int main()
     pato.setColor(1, 1, 0,1);
     pato.putBox(57,60,51,54,62,68);
 
-    //Agu·
+    //√Ågua
     pato.setColor(0.113, 0.752, 0.788,1);
     pato.putBox(50,90,47,50,50,80);
     pato.cutBox(50,51,49,50,50,80);
