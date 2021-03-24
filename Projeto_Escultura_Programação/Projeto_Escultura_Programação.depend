@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1616613978 source:c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\projeto_escultura_programação\main.cpp
+	<iostream>
+	<fstream>
+	"sculptor.h"
+
+1616624483 c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\projeto_escultura_programação\sculptor.h
+
+1616624464 source:c:\users\tiago\desktop\estudo\ufrn\2020.2\programação avançada\poo\projeto_escultura_programação\sculptor.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<vector>
+	<queue>
+	"sculptor.h"
+
