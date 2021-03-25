@@ -61,7 +61,7 @@ void sculptor::setColor(float _r, float _g, float _b, float _a){
 }
 
 
-//Desenha voxel na posição (x0,y0,z0) com a cor (r,g,b,a)
+//Desenha voxel na posiÃ§Ã£o (x0,y0,z0) 
 void sculptor::putVoxel(int x0, int y0, int z0){
     v[x0][y0][z0].isOn = true;
     v[x0][y0][z0].r = r;
@@ -71,12 +71,12 @@ void sculptor::putVoxel(int x0, int y0, int z0){
 
 }
 
-//Apaga voxel na posição (x0,y0,z0) com a cor  (r,g,b,a)
+//Apaga voxel na posiÃ§Ã£o (x0,y0,z0) 
 void sculptor::CutVoxel(int x0, int y0, int z0){
     v[x0][y0][z0].isOn = false;
 }
 
-//Desenha um paralelepípedo delimitado
+//Desenha um paralelepÃ­pedo delimitado
 void sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1){
 
     for (int i = x0; i < x1; i++){
@@ -94,7 +94,7 @@ void sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1){
 
 }
 
-//Apaga um paralelepípedo delimitado
+//Apaga um paralelepÃ­pedo delimitado
 void sculptor::cutBox(int x0, int x1, int y0, int y1, int z0, int z1){
     for (int i = x0; i < x1; i++){
         for (int j = y0; j < y1; j++){
@@ -107,7 +107,7 @@ void sculptor::cutBox(int x0, int x1, int y0, int y1, int z0, int z1){
     }
 }
 
-//Desenha um elipsóide com centro no ponto (x0,y0,z0), raios especificados e com a cor (r,g,b,a).
+//Desenha um elipsÃ³ide com centro no ponto (x0,y0,z0), raios especificados.
 void sculptor::putEllipsoid (int x0, int y0, int z0, int rx, int ry, int rz){
 
     double dx, dy, dz;
@@ -132,7 +132,7 @@ void sculptor::putEllipsoid (int x0, int y0, int z0, int rx, int ry, int rz){
     }
 }
 
-//Apaga um elipsóide com centro no ponto (x0,y0,z0) e raios especificados.
+//Apaga um elipsÃ³ide com centro no ponto (x0,y0,z0) e raios especificados.
 void sculptor::cutEllipsoid (int x0, int y0, int z0, int rx, int ry, int rz){
 
     double dx, dy, dz;
